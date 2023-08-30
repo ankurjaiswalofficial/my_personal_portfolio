@@ -1,0 +1,100 @@
+.user_profile_box {
+  width: 550px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.user_profile_box img {
+  border-radius: 25px;
+}
+
+.ui_box .typo_box {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.ui_box .typo_box .box_header {
+  font-size: 36px;
+}
+.ui_box .typo_box .box_content {
+  font-size: 16px;
+  line-height: 25px;
+  color: #eee;
+}
+
+main .pic_summary {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .pic_summary .oneplace_holder .main_header {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 36px;
+}
+main .pic_summary .oneplace_holder .self_description {
+  position: relative;
+  width: 100% !important;
+}
+main .pic_summary .oneplace_holder .self_description img {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+main .pic_summary .profiles_box .ui_context_box ul {
+  flex-wrap: wrap;
+}
+@media (max-width: 1050px) {
+  main .pic_summary {
+    flex-direction: column;
+  }
+  main .pic_summary_2, main .pic_summary_3 {
+    flex-direction: row;
+  }
+}
+@media (max-width: 720px) {
+  main .pic_summary_2 {
+    flex-direction: column;
+  }
+  main .pic_summary_3 {
+    flex-direction: row;
+  }
+}
+@media (max-width: 680px) {
+  main .user_profile_box {
+    width: 350px;
+  }
+  main .pic_summary_3 {
+    flex-direction: column;
+  }
+  main .pic_summary_3 .ui_context_box ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 380px) {
+  main .user_profile_box {
+    width: 250px;
+  }
+}
+main .education_box .typo_box,
+main .experience_box .typo_box {
+  margin-top: 10px;
+}
+main .education_box .typo_box .experience,
+main .experience_box .typo_box .experience {
+  padding-block: 10px;
+}
+main .education_box .typo_box .experience .box_header_1,
+main .experience_box .typo_box .experience .box_header_1 {
+  font-size: 18px;
+}
+main .education_box .typo_box .experience .light,
+main .experience_box .typo_box .experience .light {
+  font-size: 20px;
+  color: #eee;
+}
+main .education_box .typo_box .experience .box_header_2,
+main .experience_box .typo_box .experience .box_header_2 {
+  font-size: 16px;
+}/*# sourceMappingURL=about.css.map */

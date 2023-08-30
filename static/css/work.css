@@ -1,0 +1,9 @@
+main {
+  gap: 20px;
+}
+main .ui_box {
+  width: 300px !important;
+}
+main .ui_box .typo_box {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=work.css.map */

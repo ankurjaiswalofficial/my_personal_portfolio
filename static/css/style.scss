@@ -138,6 +138,20 @@ body {
         justify-content: space-evenly;
         align-items: center;
         margin-top: 40px;
+        .main_header {
+            width: 100% !important;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: 74px;
+            font-weight: 700;
+            white-space: nowrap;
+            color: #fff;
+            overflow: hidden;
+        }
         .oneplace_holder {
             width: 100%;
             margin: 10px;
@@ -202,6 +216,11 @@ body {
     .header_link,
     .footer_link {
         color: #3d3d3d;
+    }
+    .active {
+        .header_link {
+            color: #fff;
+        }
     }
     header,
     main,
@@ -306,6 +325,12 @@ body {
         overflow: hidden;
         border-radius: 30px 0px;
         flex: none;
+        border: 1px solid rgba(40, 40, 40, 0.5);
+        background: linear-gradient(
+            120deg,
+            rgba(40, 40, 40, 0.5),
+            rgba(0, 0, 0, 0.492)
+        );
         img {
             display: block;
             height: 100%;
@@ -342,7 +367,6 @@ body {
             bottom: 30px;
             opacity: 0.2;
             transition: 0.3s;
-            z-index: 20;
             svg,
             a svg {
                 height: auto;
@@ -491,6 +515,9 @@ body {
         }
     }
     main {
+        .main_header {
+            font-size: 48px !important;
+        }
         .typo_box {
             margin-bottom: 50px;
         }
@@ -537,6 +564,17 @@ body {
     }
 }
 
+@media (max-width: 540px) {
+    main {
+        .main_header {
+            font-size: 24px !important;
+            img {
+                width: 25px !important;
+                height: 25px !important;
+            }
+        }
+    }
+}
 @media (max-width: 340px) {
     .img_box {
         width: 185px !important;
@@ -547,7 +585,23 @@ body {
         }
     }
 }
+@media (max-width: 380px) {
+    main {
+        .main_header {
+            font-size: 18px !important;
+        }
+    }
+}
 @media (max-width: 270px) {
+    main {
+        .main_header {
+            font-size: 16px !important;
+            img {
+                width: 15px !important;
+                height: 15px !important;
+            }
+        }
+    }
     .img_box {
         width: 155px !important;
         height: 155px !important;

@@ -130,6 +130,20 @@ body main {
   align-items: center;
   margin-top: 40px;
 }
+body main .main_header {
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 74px;
+  font-weight: 700;
+  white-space: nowrap;
+  color: #fff;
+  overflow: hidden;
+}
 body main .oneplace_holder {
   width: 100%;
   margin: 10px;
@@ -193,6 +207,9 @@ body footer .copyright a:hover {
 body .header_link,
 body .footer_link {
   color: #3d3d3d;
+}
+body .active .header_link {
+  color: #fff;
 }
 body header,
 body main,
@@ -279,6 +296,8 @@ body footer {
   overflow: hidden;
   border-radius: 30px 0px;
   flex: none;
+  border: 1px solid rgba(40, 40, 40, 0.5);
+  background: linear-gradient(120deg, rgba(40, 40, 40, 0.5), rgba(0, 0, 0, 0.492));
 }
 .ui_box .img_box img {
   display: block;
@@ -317,7 +336,6 @@ body footer {
   bottom: 30px;
   opacity: 0.2;
   transition: 0.3s;
-  z-index: 20;
 }
 .ui_box .typo_box .explore_card svg,
 .ui_box .typo_box .explore_card a svg {
@@ -411,6 +429,7 @@ body footer {
   align-items: flex-start;
   padding: 40px;
   gap: 30px;
+  
 }
 .profile_box .img_box {
   width: 225px;
@@ -462,6 +481,9 @@ body footer {
   header .display_nav {
     display: flex !important;
   }
+  main .main_header {
+    font-size: 48px !important;
+  }
   main .typo_box {
     margin-bottom: 50px;
   }
@@ -470,6 +492,7 @@ body footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   main .services_box .content_box ul {
     flex-direction: column;
@@ -490,6 +513,15 @@ body footer {
     width: 100% !important;
   }
 }
+@media (max-width: 540px) {
+  main .main_header {
+    font-size: 24px !important;
+  }
+  main .main_header img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
 @media (max-width: 340px) {
   .img_box {
     width: 185px !important;
@@ -500,7 +532,19 @@ body footer {
     height: 185px !important;
   }
 }
+@media (max-width: 380px) {
+  main .main_header {
+    font-size: 18px !important;
+  }
+}
 @media (max-width: 270px) {
+  main .main_header {
+    font-size: 16px !important;
+  }
+  main .main_header img {
+    width: 15px !important;
+    height: 15px !important;
+  }
   .img_box {
     width: 155px !important;
     height: 155px !important;

@@ -1,0 +1,142 @@
+.ui_box .typo_box {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.ui_box .typo_box .box_header {
+  font-size: 36px;
+}
+.ui_box .typo_box .box_content {
+  font-size: 16px;
+  line-height: 25px;
+  color: #eee;
+}
+
+main .pic_summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+main .pic_summary .left_side {
+  position: sticky;
+  top: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 40%;
+}
+main .pic_summary .left_side .user_profile_box {
+  width: 350px;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+main .pic_summary .left_side .user_profile_box ul {
+  flex-wrap: wrap;
+  gap: 50px;
+}
+main .pic_summary .left_side .user_profile_box div ul {
+  justify-content: center;
+  align-items: center;
+}
+main .pic_summary .left_side .user_profile_box div ul .description {
+  text-align: center;
+  word-wrap: break-word;
+  margin-inline: 0px;
+  margin-bottom: 20px;
+}
+main .pic_summary .left_side .user_profile_box img {
+  border-radius: 25px;
+}
+main .pic_summary .left_side .user_profile_box .contact_button {
+  width: 100%;
+  margin-block: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(40, 40, 40, 0.5);
+  background: linear-gradient(120deg, rgba(40, 40, 40, 0.5), rgba(0, 0, 0, 0.05));
+}
+main .pic_summary .left_side .user_profile_box .contact_button:hover {
+  background: #eee;
+  color: #000;
+}
+main .pic_summary .right_side {
+  width: 55%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main .pic_summary .right_side .oneplace_holder .main_header {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 24px;
+}
+main .pic_summary .right_side .oneplace_holder .main_header img {
+  width: 25px;
+}
+main .pic_summary .right_side .oneplace_holder .oneplace_together {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .pic_summary .right_side .oneplace_holder .oneplace_together .experience {
+  color: #bcbcbc;
+  padding: 10px;
+  text-align: center;
+}
+main .pic_summary .right_side .oneplace_holder .oneplace_together .experience2 {
+  width: 100%;
+}
+main .pic_summary .right_side .oneplace_holder .oneplace_together .light {
+  color: #5b78f6;
+}
+main .pic_summary .right_side .oneplace_holder .oneplace_together .description {
+  padding: 20px;
+  font-size: medium;
+  color: #bcbcbc;
+}
+@media (max-width: 1050px) {
+  main .pic_summary {
+    flex-direction: column;
+  }
+  main .pic_summary .left_side {
+    position: relative;
+    width: 100%;
+  }
+  main .pic_summary .left_side .user_profile_box {
+    width: 100%;
+  }
+  main .pic_summary .right_side {
+    width: 100%;
+  }
+}
+@media (max-width: 680px) {
+  main .user_profile_box {
+    width: 350px;
+  }
+  main .oneplace_holder .oneplace_together {
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 380px) {
+  main .user_profile_box {
+    width: 250px;
+  }
+}
+main .experience {
+  padding-block: 10px;
+}
+main .experience .box_header_1 {
+  font-size: 18px;
+}
+main .experience .light {
+  font-size: 20px;
+  color: #eee;
+}
+main .experience .box_header_2 {
+  font-size: 16px;
+}/*# sourceMappingURL=services.css.map */

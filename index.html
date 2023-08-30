@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="static/css/style.css" />
         <link
             href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
             rel="stylesheet"
@@ -14,22 +14,24 @@
     <body>
         <header>
             <div class="brand_logo">
-                <img src="logo.svg" alt="brand" />
+                <img src="static/images/logo.svg" alt="brand" />
             </div>
             <div class="navigation_handler">
                 <div class="navigation_handler_nav">
                     <ul>
                         <li class="active">
-                            <a href="#home" class="header_link">Home</a>
+                            <a href="/index.html" class="header_link">Home</a>
                         </li>
                         <li class="">
-                            <a href="#about" class="header_link">About</a>
+                            <a href="/about.html" class="header_link">About</a>
                         </li>
                         <li class="">
-                            <a href="#works" class="header_link">Works</a>
+                            <a href="/work.html" class="header_link">Works</a>
                         </li>
                         <li class="">
-                            <a href="#contact" class="header_link">Contact</a>
+                            <a href="/contact.html" class="header_link"
+                                >Contact</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -37,21 +39,21 @@
             <div class="navigation">
                 <ul>
                     <li class="active">
-                        <a href="#home" class="header_link">Home</a>
+                        <a href="/index.html" class="header_link">Home</a>
                     </li>
                     <li class="">
-                        <a href="#about" class="header_link">About</a>
+                        <a href="/about.html" class="header_link">About</a>
                     </li>
                     <li class="">
-                        <a href="#works" class="header_link">Works</a>
+                        <a href="/work.html" class="header_link">Works</a>
                     </li>
                     <li class="">
-                        <a href="#contact" class="header_link">Contact</a>
+                        <a href="/contact.html" class="header_link">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="lets_talk">
-                <a href="#contact" class="contacts_link">Let's talk</a>
+                <a href="/contact.html" class="contacts_link">Let's talk</a>
             </div>
             <div class="more_pages" id="more_pages">
                 <svg
@@ -86,13 +88,17 @@
         <main>
             <div class="ui_box profile_box">
                 <div class="img_box">
-                    <img src="user_pic.jpg" alt="My Image" />
+                    <img src="static/images/user_pic.png" alt="My Image" />
                 </div>
                 <div class="typo_box">
                     <div class="box_content">A Web Developer</div>
                     <div class="box_header">Ankur Jaiswal</div>
                     <div class="box_description">
-                        A am a Web Developer based in Gr. Noida
+                        A am a Web Developer based in Gr. Noida <br />
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Architecto tempore officiis corrupti beatae
+                        exercitationem, expedita hic omnis iste aspernatur, quia
+                        dolores? Quia repellat voluptate ipsam?
                     </div>
                     <div class="explore_card">
                         <svg
@@ -123,7 +129,7 @@
                         </svg>
                     </div>
                 </div>
-                <a href="#profile" class="hover_linker"></a>
+                <a href="about.html" class="hover_linker"></a>
             </div>
             <div class="oneplace_holder">
                 <div class="ui_box default_box banner_box">
@@ -131,6 +137,21 @@
                         <div class="marquee_runner_box">
                             <div>
                                 <span class="box_content banner_content">
+                                    More About Me <b>Featured.</b>
+                                </span>
+                                <span class="box_content banner_content">
+                                    More About Me <b>Featured.</b> </span
+                                ><span class="box_content banner_content">
+                                    More About Me <b>Featured.</b>
+                                </span>
+                                <span class="box_content banner_content">
+                                    More About Me <b>Featured.</b> </span
+                                ><span class="box_content banner_content">
+                                    More About Me <b>Featured.</b>
+                                </span>
+                                <span class="box_content banner_content">
+                                    More About Me <b>Featured.</b> </span
+                                ><span class="box_content banner_content">
                                     More About Me <b>Featured.</b>
                                 </span>
                                 <span class="box_content banner_content">
@@ -143,10 +164,7 @@
                 <div class="oneplace_together">
                     <div class="ui_box default_box credentials_box">
                         <div class="img_box">
-                            <img
-                                src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/sign.png"
-                                alt="Sign"
-                            />
+                            <img src="static/images/signature.png" alt="Sign" />
                         </div>
                         <div class="typo_box">
                             <div class="box_content">More About Me</div>
@@ -180,14 +198,11 @@
                                 </svg>
                             </div>
                         </div>
-                        <a href="#credentials" class="hover_linker"></a>
+                        <a href="credentials.html" class="hover_linker"></a>
                     </div>
                     <div class="ui_box default_box projects_box">
                         <div class="img_box">
-                            <img
-                                src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/sign.png"
-                                alt="Sign"
-                            />
+                            <img src="static/images/projects.png" alt="Sign" />
                         </div>
                         <div class="typo_box">
                             <div class="box_content">Showcase</div>
@@ -221,12 +236,12 @@
                                 </svg>
                             </div>
                         </div>
-                        <a href="#projects" class="hover_linker"></a>
+                        <a href="work.html" class="hover_linker"></a>
                     </div>
                 </div>
             </div>
             <div class="ui_box default_box services_box">
-                <div class="content_box">
+                <div class="content_box ui_context_box">
                     <ul>
                         <li class="camera">
                             <svg
@@ -374,13 +389,18 @@
                         </svg>
                     </div>
                 </div>
-                <a href="#services" class="hover_linker"></a>
+                <a href="services.html" class="hover_linker"></a>
             </div>
             <div class="ui_box default_box profiles_box">
                 <div class="content_box ui_context_box">
                     <ul>
-                        <li class="camera">
-                            <a href="#github" class="">
+                        <li class="github">
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/ankurjaiswalofficial"
+                                class=""
+                            >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
@@ -393,8 +413,13 @@
                                     /></svg
                             ></a>
                         </li>
-                        <li class="design-pencil">
-                            <a href="#linkedin" class="">
+                        <li class="linkedin">
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.linkedin.com/in/ankurjaiswalofficial/"
+                                class=""
+                            >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
@@ -407,8 +432,11 @@
                                     /></svg
                             ></a>
                         </li>
-                        <li class="dev-mode-phone">
-                            <a href="#google" class="">
+                        <li class="gmail">
+                            <a
+                                href="mailto:ankurjaiswalofficial@gmail.com"
+                                class=""
+                            >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
@@ -421,8 +449,13 @@
                                     /></svg
                             ></a>
                         </li>
-                        <li class="dev-mode-phone">
-                            <a href="#youtube" class="">
+                        <li class="youtube">
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.youtube.com/@codemycoder"
+                                class=""
+                            >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
@@ -441,7 +474,7 @@
                     <div class="box_content">Stay with me</div>
                     <div class="box_header">Profiles</div>
                     <div class="explore_card">
-                        <a href="#profiles" class="">
+                        <a href="contact.html" class="">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="46"
@@ -502,18 +535,14 @@
                 </div>
             </div>
             <div class="ui_box default_box work_together_box">
-                <img
-                    src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon2.png"
-                    alt="Icon"
-                    class="star-icon"
-                />
+                <img src="static/images/icon2.png" alt="Icon" />
                 <div class="typo_box work_together_typo">
                     <div class="box_header larger">
                         Let's<br />
                         work <span>together.</span>
                     </div>
                     <div class="explore_card">
-                        <a href="#contacts" class="work_together_link">
+                        <a href="/contact.html" class="work_together_link">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="46"
@@ -546,29 +575,29 @@
         </main>
         <footer>
             <div class="brand_logo">
-                <img src="logo.svg" alt="brand" />
+                <img src="static/images/logo.svg" alt="brand" />
             </div>
             <div class="navigation">
                 <ul>
                     <li class="active">
-                        <a href="#home" class="footer_link">Home</a>
+                        <a href="/index.html" class="footer_link">Home</a>
                     </li>
                     <li class="">
-                        <a href="#about" class="footer_link">About</a>
+                        <a href="/about.html" class="footer_link">About</a>
                     </li>
                     <li class="">
-                        <a href="#works" class="footer_link">Works</a>
+                        <a href="/work.html" class="footer_link">Works</a>
                     </li>
                     <li class="">
-                        <a href="#contact" class="footer_link">Contact</a>
+                        <a href="/contact.html" class="footer_link">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="copyright">
                 &copy; All rights reserved by
-                <a href="#home" class="">Ankur Jaiswal</a>
+                <a href="/index.html" class="">Ankur Jaiswal</a>
             </div>
         </footer>
     </body>
-    <script src="script.js"></script>
+    <script src="static/js/script.js"></script>
 </html>
