@@ -92,7 +92,7 @@ main .pic_summary .right_side .oneplace_holder .oneplace_together .experience2 {
   width: 100%;
 }
 main .pic_summary .right_side .oneplace_holder .oneplace_together .light {
-  color: #5b78f6;
+  color: var(--advantage-color);
 }
 main .pic_summary .right_side .oneplace_holder .oneplace_together .description {
   padding: 20px;
