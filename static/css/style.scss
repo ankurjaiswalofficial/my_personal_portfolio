@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&family=Ubuntu&family=Varela+Round&display=swap');
+
 :root {
     --default-color: #5b78f6;
     --default-fg-color: #bcbcbc;
@@ -9,7 +11,7 @@
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Mukta", sans-serif;
+    font-family: "Outfit", sans-serif;
     transition: 0.4s ease-in-out;
 }
 html {
@@ -19,7 +21,7 @@ html {
 }
 body {
     width: 100%;
-    background-color: #0f0f0f;
+    background-color: #040000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,8 +40,14 @@ body {
         list-style: none;
     }
     header {
-        position: relative;
+        position: fixed;
         height: 64px;
+        top: 5px;
+        width: 100%;
+        background-color: #0f0f0f;
+        border-radius: 8px;
+        z-index: 200;
+        border: 1px solid #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -138,7 +146,7 @@ body {
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 100px;
         .main_header {
             width: 100% !important;
             display: flex;
@@ -437,7 +445,10 @@ body {
             font-size: 48px;
             span {
                 font-size: inherit;
-                color: #5b78f6;
+                background-color: #00f;
+                border-radius: 8px;
+                padding-inline: 10px;
+                color: #fff;
             }
         }
     }
@@ -484,11 +495,7 @@ body {
         width: 100%;
     }
 }
-@media (max-width: 770px) {
-    header {
-        padding-inline: 0px !important;
-    }
-}
+
 @media (max-width: 680px) {
     html,
     body,
