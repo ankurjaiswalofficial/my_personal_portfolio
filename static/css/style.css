@@ -429,7 +429,6 @@ body footer {
   align-items: flex-start;
   padding: 40px;
   gap: 30px;
-  
 }
 .profile_box .img_box {
   width: 225px;
@@ -492,7 +491,6 @@ body footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
   main .services_box .content_box ul {
     flex-direction: column;

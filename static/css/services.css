@@ -97,6 +97,7 @@ main .pic_summary .right_side .oneplace_holder .oneplace_together .light {
 main .pic_summary .right_side .oneplace_holder .oneplace_together .description {
   padding: 20px;
   font-size: medium;
+  word-break: break-all;
   color: #bcbcbc;
 }
 @media (max-width: 1050px) {
