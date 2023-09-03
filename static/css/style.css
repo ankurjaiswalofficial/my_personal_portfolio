@@ -2,6 +2,7 @@
 :root {
   --default-color: #5b78f6;
   --default-fg-color: #bcbcbc;
+  --advantage-color: #00f;
 }
 
 * {
@@ -49,7 +50,8 @@ body header {
   background-color: #0f0f0f;
   border-radius: 30px;
   z-index: 200;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  padding-block: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -206,7 +208,7 @@ body footer .copyright {
   word-wrap: normal;
 }
 body footer .copyright a {
-  color: #5b78f6;
+  color: var(--advantage-color);
 }
 body footer .copyright a:hover {
   text-decoration: underline;
@@ -414,7 +416,7 @@ body footer {
 }
 .default_box .typo_box .larger span {
   font-size: inherit;
-  background-color: #00f;
+  background-color: var(--advantage-color);
   border-radius: 8px;
   padding-inline: 10px;
   color: #fff;
