@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&family=Ubuntu&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&family=Ubuntu&family=Varela+Round&display=swap");
 
 :root {
     --default-color: #5b78f6;
@@ -248,10 +248,8 @@ body {
         125deg,
         rgba(0, 0, 0, 0.08),
         rgba(255, 255, 255, 0.08),
-        rgba(50, 50, 50, 0.08),
-
+        rgba(50, 50, 50, 0.08)
     );
-    ;
     border: 1px solid rgba(40, 40, 40, 0.7);
     border-radius: 30px;
     color: #bcbcbc;
